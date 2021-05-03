@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io(); // url här (inom parentesen) om det behövs! "http://localhost:4000"
 
 socket.on("connect", () => {
     console.log("Connection established")
