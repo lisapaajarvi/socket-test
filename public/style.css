@@ -51,3 +51,7 @@ body {
 #messages > li:nth-child(odd) { 
     background: #efefef; 
 }
+
+h1 {
+    text-align: center;
+}
